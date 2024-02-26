@@ -1,0 +1,30 @@
+.invoice {
+    font-family: Helvetica;
+}
+
+#ourInfo, #customerInfo, #dataTable, #invoiceCalculation {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    border-spacing: 0px;
+    border-collapse: collapse;
+    padding: 0px;
+}
+
+h1, h2, h3, h4 {
+    padding: 0px;
+    margin: 0px;
+    border-spacing: 0px;
+    border-collapse: collapse;
+}
+
+#dataTable td {
+    border: 2px dashed black;
+    padding: 10px;
+    border-left: none;
+    border-right: none;
+}
+
+#invoiceCalculation td {
+    font-weight: bold;
+}
